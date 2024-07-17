@@ -58,16 +58,16 @@ body{
 
 }
 .presentacion{
-    
+        
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin: 10% 7%;
-        
+        gap: 40px;
 }
 .presentacion__contenido{
 
-    width:615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -99,7 +99,7 @@ body{
 
 .presentacion__enlaces_links{
 
-    width: 378px;
+    width: 50%;
     
     text-align: center;
     padding: 21.5px 0;
@@ -139,4 +139,22 @@ body{
     background-color: var(--color-terciario);
     padding: 1.5rem;
     
+}
+
+@media (max-width:1200px){
+
+    .header{
+        padding: 10%;
+    }
+    .header__menu{
+        margin: auto;
+        justify-content: center;
+    }
+    .presentacion{
+        flex-direction: column-reverse;/* cuando la pagina se achique a menos de 1200px, elementos van en columna*/
+        padding: 5%;;
+    }
+    .presentacion__contenido{
+        width: auto; /*usar auto, se adapta automaticamente al tamaño del elemento padre*/
+    }
 }
