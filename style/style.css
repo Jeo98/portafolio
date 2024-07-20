@@ -1,7 +1,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --color-primario:#000000;
+    --color-primario:#006769;
     --color-secundario:#f6f6f6;
     --color-terciario:#22d4fd;
     --fuente-Montserrat:"Montserrat", sans serif;
@@ -20,6 +20,7 @@
     padding-right: 0%;
     padding-bottom: 0%;
     padding-left: 15%;
+    background-color: #E6FF94;
 }
 
 .header__menu{
@@ -34,6 +35,9 @@ font-size: 1.5rem;
 font-weight: 600;
 color: var(--color-terciario);
 text-decoration: none;
+color: #006769;
+display: center;
+padding: 2%; 
 
 }    
 
@@ -83,6 +87,23 @@ body{
     font-family: var(--fuente-KRONA);
     
 }
+.presentacion_softskills{
+
+font-size: 1.5rem;
+font-family: var(--fuente-Montserrat);
+color: #E6FF94;
+}
+
+.presentacion__lista_softskills{
+
+    font-size: 1rem;
+    font-family: var(--fuente-KRONA);
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
 
 .presentacion__enlaces{
 
@@ -107,7 +128,7 @@ body{
     font-weight: 600;
     text-decoration: none;
     color: var(--color-secundario);
-    border: 2px solid var(--color-terciario);
+    border: 2px solid #E6FF94;
     display: flex; /* alinea los objetos de una clase*/
     justify-content: center; /** centra los objetos*/
     gap: 16px;
@@ -115,13 +136,13 @@ body{
     
 }
 .imagen-perfil{
-
+    
     width: 50%;
 }
 .presentacion__enlaces_links:hover{
 
-    background-color: var(--color-primario);
-
+    background-color: #40A578;
+    color: #E6FF94;
 }
 
 .presentacion__enlaces_subtituloRedes{
@@ -135,7 +156,7 @@ body{
     font-family: var(--fuente-Montserrat);
     font-size: 1.5rem;
     font-weight: 400;
-    background-color: var(--color-terciario);
+    background-color: var(--color-secundario);
     padding: 1.5rem;
     text-align: center;
     
