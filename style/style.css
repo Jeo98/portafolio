@@ -104,7 +104,21 @@ color: #E6FF94;
     flex-direction: column;
 
 }
+.presentacion_tecnologias{
+    font-size: 1.5rem;
+    font-family: var(--fuente-Montserrat);
+    color: #29d185;
+    
+}
+.presentacion__lista_tecnologias{
 
+    font-size: 1rem;
+    font-family: var(--fuente-KRONA);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
 .presentacion__enlaces{
 
     display: flex;/* es para que queden dentro de una caja, para que luego respete los limites de las demas clases.*/
@@ -160,6 +174,32 @@ color: #E6FF94;
     padding: 1.5rem;
     text-align: center;
     
+}
+
+.formacion_informacion__parrafo{
+
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    
+}
+
+.formacion_redes__footer{
+
+    color:var(--color-primario);
+    background-color: var(--color-secundario);
+    padding: 1.5rem;
+    display: flex;
+    width: 10%;
+    border:black;
+    padding: auto;
+    gap:1rem;
+
+}
+.formacion_redes_footer:hover{
+
+    background-color: #40A578;
+    color:  black;
 }
 
 @media (max-width:1200px){
