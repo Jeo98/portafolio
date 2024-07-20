@@ -157,4 +157,6 @@ body{
     .presentacion__contenido{
         width: auto; /*usar auto, se adapta automaticamente al tamaño del elemento padre*/
     }
+
+    
 }
