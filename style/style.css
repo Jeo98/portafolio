@@ -205,11 +205,18 @@ color: #E6FF94;
 @media (max-width:1200px){
 
     .header{
-        padding: 10%;
+        padding: 5%;
     }
     .header__menu{
         margin: auto;
         justify-content: center;
+        font-size: 40%;
+    }
+
+    .header__menu_link{
+        margin: auto;
+        justify-content: center;
+        font-size: 1rem;
     }
     .presentacion{
         flex-direction: column-reverse;/* cuando la pagina se achique a menos de 1200px, elementos van en columna*/
@@ -220,4 +227,12 @@ color: #E6FF94;
     }
 
 
+}
+
+@media (max-width:600px){
+    .header__menu_link{
+        margin: auto;
+        justify-content: center;
+        font-size: 0.5rem;
+    }
 }
