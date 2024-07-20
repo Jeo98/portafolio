@@ -19,13 +19,13 @@
     padding-top: 2%;
     padding-right: 0%;
     padding-bottom: 0%;
-    padding-left: 7%;
+    padding-left: 15%;
 }
 
 .header__menu{
 
     display: flex;
-    gap: 10;
+    gap: 80px;
 }
 .header__menu_link{
 
@@ -33,15 +33,14 @@ font-family: var(--fuente-Montserrat);
 font-size: 1.5rem;
 font-weight: 600;
 color: var(--color-terciario);
-padding: 10px;
 text-decoration: none;
 
 }    
 
 body{
+
     background-color: var(--color-primario);
     color:var(--color-secundario);
-    
     box-sizing: border-box;
     
     
@@ -58,11 +57,10 @@ body{
 
 }
 .presentacion{
-        
+        padding: 5% 15%;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 10% 7%;
         gap: 40px;
 }
 .presentacion__contenido{
@@ -112,11 +110,14 @@ body{
     border: 2px solid var(--color-terciario);
     display: flex; /* alinea los objetos de una clase*/
     justify-content: center; /** centra los objetos*/
-    gap: 10px;
+    gap: 16px;
 
     
 }
+.imagen-perfil{
 
+    width: 50%;
+}
 .presentacion__enlaces_links:hover{
 
     background-color: var(--color-primario);
@@ -131,13 +132,12 @@ body{
 
 .footer{
     color:var(--color-primario);
-    display: flex;
-    justify-content: center;
     font-family: var(--fuente-Montserrat);
     font-size: 1.5rem;
     font-weight: 400;
     background-color: var(--color-terciario);
     padding: 1.5rem;
+    text-align: center;
     
 }
 
@@ -158,5 +158,5 @@ body{
         width: auto; /*usar auto, se adapta automaticamente al tamaño del elemento padre*/
     }
 
-    
+
 }
